@@ -52,11 +52,19 @@ sls offline
 
 ## 4.動作確認
 
+グーを出す(プレーヤー名test)
+
 curl 'http://localhost:3000/jankens?hand=rock&name=test' -X POST
+
+パーを出す(プレーヤー名test)
 
 curl 'http://localhost:3000/jankens?hand=paper&name=test' -X POST
 
+チョキを出す(プレーヤー名test)
+
 curl 'http://localhost:3000/jankens?hand=scissors&name=test' -X POST
+
+戦績一覧
 
 curl 'http://localhost:3000/jankens' -X GET
 
